@@ -60,6 +60,7 @@ export const updateLastNotification = (
     .find({ id: bushId })
     .assign({ lastNotification: notificationTime })
     .write()
+
 export const getBushByName = (growRoomId: number, bushName: string) =>
   db.get('BUSHES').filter({ growRoomId }).find({ name: bushName }).value()
 

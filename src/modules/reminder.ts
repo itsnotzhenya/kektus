@@ -13,3 +13,7 @@ export const sendNotification = (bushId: string) => {
     },
   })
 }
+
+export const toDelay = (bushId: string) => {
+  console.log('Напоминание отложено')
+}

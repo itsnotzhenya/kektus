@@ -38,10 +38,6 @@ export const telegramBot = (bot: TelegramBot) => {
     })
   })
 
-  // const toDelay = (roomId: number, bush: Bush) => {
-  //   console.log('Напоминание отложено')
-  // }
-
   // Listen for any kind of message. There are different kinds of
 
   bot.on('callback_query', (query) => {

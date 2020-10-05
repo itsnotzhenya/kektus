@@ -26,7 +26,6 @@ export const SCHEDULER_MENU = [
   ],
 ]
 
-
 export const EDIT_MENU = [
   [
     {
@@ -70,10 +69,10 @@ export const NOTIFICATION_MENU = [
       callback_data: ACTIONS.MARK_WATERING,
     },
   ],
-  // [
-  //   {
-  //     text: 'Отложить 😴',
-  //     callback_data: ACTIONS.TO_DELAY,
-  //   },
-  // ],
+  [
+    {
+      text: 'Отложить 😴',
+      callback_data: ACTIONS.TO_DELAY,
+    },
+  ],
 ]
